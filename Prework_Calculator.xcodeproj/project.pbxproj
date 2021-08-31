@@ -15,6 +15,7 @@
 		3DD37AFD26DD918C00F49AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD37AFB26DD918C00F49AFA /* LaunchScreen.storyboard */; };
 		3DD37B0826DD918C00F49AFA /* Prework_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD37B0726DD918C00F49AFA /* Prework_CalculatorTests.swift */; };
 		3DD37B1326DD918C00F49AFA /* Prework_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD37B1226DD918C00F49AFA /* Prework_CalculatorUITests.swift */; };
+		3DD37B2126DD9FC300F49AFA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD37B2026DD9FC300F49AFA /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3DD37B0E26DD918C00F49AFA /* Prework_CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prework_CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD37B1226DD918C00F49AFA /* Prework_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prework_CalculatorUITests.swift; sourceTree = "<group>"; };
 		3DD37B1426DD918C00F49AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD37B2026DD9FC300F49AFA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		3DD37AE426DD918B00F49AFA = {
 			isa = PBXGroup;
 			children = (
+				3DD37B2026DD9FC300F49AFA /* SettingsViewController.swift */,
 				3DD37AEF26DD918B00F49AFA /* Prework_Calculator */,
 				3DD37B0626DD918C00F49AFA /* Prework_CalculatorTests */,
 				3DD37B1126DD918C00F49AFA /* Prework_CalculatorUITests */,
@@ -261,6 +264,7 @@
 				3DD37AF526DD918B00F49AFA /* ViewController.swift in Sources */,
 				3DD37AF126DD918B00F49AFA /* AppDelegate.swift in Sources */,
 				3DD37AF326DD918B00F49AFA /* SceneDelegate.swift in Sources */,
+				3DD37B2126DD9FC300F49AFA /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
