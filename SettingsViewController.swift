@@ -38,6 +38,16 @@ class SettingsViewController: UIViewController {
         defaults.set(tip1, forKey: "mytip1")
         defaults.synchronize()
     }
+    @IBAction func tip2Change(_ sender: Any) {
+        let defaults = UserDefaults.standard
+        let tip2 = Double(tip2Text.text!) ?? 0
+        defaults.set(tip2, forKey: "mytip2")
+        defaults.synchronize()    }
+    @IBAction func tip3Change(_ sender: Any) {
+        let defaults = UserDefaults.standard
+        let tip3 = Double(tip3Text.text!) ?? 0
+        defaults.set(tip3, forKey: "mytip3")
+        defaults.synchronize()    }
     /*
     // MARK: - Navigation
 
