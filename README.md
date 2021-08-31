@@ -24,6 +24,8 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
+- You can change the percentage of the tips in the settings
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
