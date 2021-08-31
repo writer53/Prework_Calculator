@@ -33,6 +33,7 @@ class ViewController: UIViewController {
         let defaults = UserDefaults.standard
         let tip1 = defaults.double(forKey: "mytip1")
         let tipPercentages = [tip1, 0.18, 0.2]
+        
         tipPercentages[tipControl.selectedSegmentIndex]
     }
 
@@ -57,7 +58,9 @@ class ViewController: UIViewController {
        
         
         // Get total tip by multiplying tip * tipPercentage
-        let tipPercentages = [0.15, 0.18, 0.2]
+        let defaults = UserDefaults.standard
+        let tip1 = defaults.double(forKey: "mytip1")
+        let tipPercentages = [tip1, 0.18, 0.2]
         let tip = bill *
             tipPercentages[tipControl.selectedSegmentIndex]
         let total = bill + tip
